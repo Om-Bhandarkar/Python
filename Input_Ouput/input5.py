@@ -6,4 +6,5 @@ c = float(input("Enter Data : "))
 
 list1 = [a,b,c]
 print(list1)
+# print(type(list1[0]))
 
