@@ -1,0 +1,2 @@
+lang = ()
+print(type(lang))
