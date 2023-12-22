@@ -1,15 +1,13 @@
-def outer(x,y):
-    def inner(a,b):
-        print("In Innner-1 Function")
 
-    print("In Outer Function")
-    print(x + y)
-    return inner
+def fun():
 
-retVal = outer(10,20)
-innerList = retVal(3,5)
-print(retVal)
-print(innerList)
+    print("In fun function")
+
+print("Start Program")
+
+fun()
+
+print("End Program")
 
 
         
