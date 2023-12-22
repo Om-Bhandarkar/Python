@@ -1,10 +1,13 @@
-def factorial(N):
+def factorial(num):
     fact = 1
-    for i in range(1,N+1):
-        fact*=1
-        return fact
+    for i in range(1, num + 1):
+        fact = fact * i
 
-N = int(input("Enter value of N : "))
+    return fact
 
-fact =  factorial(N)
-print(fact)
+
+num = int(input("Enter the Number : "))
+
+fact = factorial(num)
+
+print("Factorial of {} is {}".format(num,fact))
