@@ -1,5 +1,3 @@
-num = 1
-row = 5
 
 def fn(num):
     sum=0
