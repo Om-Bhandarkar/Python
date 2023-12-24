@@ -23,6 +23,7 @@ def isStrong(num):
 
 num = int(input("Enter the Number : "))
 
+isStrong(num)
 
 
 
