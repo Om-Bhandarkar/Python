@@ -1,6 +1,19 @@
-for i in range(10):
+class Parent: 
+    def __init__(self):
+        print("In Parent Constructor")
+
+    def ParentInfo(self):
+        print("In Parent Method")
+
+
+class Child(Parent):
+
+    def __init__(self):
+        print("In Child Constructor")
     
-    for j in range(10):
+    def childInfo(self):
+        print("In Child Method")
 
-        
 
+obj = Child()
+obj.ParentInfo()

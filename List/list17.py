@@ -8,6 +8,8 @@ def countPair(listData):
             if K == (listData[i] + listData[j]):
 
                 return listData[i], listData[j]
+            
+                
 
 
 n = int(input("Enter the No. of Element : "))
