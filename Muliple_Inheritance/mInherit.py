@@ -1,5 +1,3 @@
-
-
 class Boss:
   def report(self):
       print("Mein Boss Hu")
