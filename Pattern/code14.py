@@ -1,19 +1,13 @@
-class Parent: 
-    def __init__(self):
-        print("In Parent Constructor")
 
-    def ParentInfo(self):
-        print("In Parent Method")
+#                       *  
+#                       * *  
+#                       * * *         
+#                       * * * *       
+#                       * * * * *  
 
+num =  int(input("Enter the Row : "))
 
-class Child(Parent):
-
-    def __init__(self):
-        print("In Child Constructor")
-    
-    def childInfo(self):
-        print("In Child Method")
-
-
-obj = Child()
-obj.ParentInfo()
+for i in range(1,num+1):
+    for j in range(1,i+1):
+        print("*",end=" ")
+    print(" ")
