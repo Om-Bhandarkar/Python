@@ -1,6 +1,4 @@
 
-# Taking List input from the User
-
 num_items = int(input("How many items do you want to list? "))
 items = []
 for i in range(num_items):
@@ -8,5 +6,7 @@ for i in range(num_items):
     items.append(item)
 
 
+print("List of items: {} ".format(items))
+# print(f"List of items: {items} ")
 
-print(f"List of items: {items} ")
+
