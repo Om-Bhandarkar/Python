@@ -4,7 +4,7 @@
 
 # 1. Array Module
 
-import array as arr
+import array as arr 
 
 ele = int(input("Enter the No. of Elements in array : "))
 
@@ -29,6 +29,7 @@ n = int(input("Enter no. of element in numpy array : "))
 arr =  np.empty(n,dtype = int)
 for i in range(n):
     element = int(input(f"Enter {i} index element : "))
-    arr[i] = element
+    arr.append(element)
+    # arr[i] = element
 
 print(arr)
