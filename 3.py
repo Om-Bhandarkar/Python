@@ -1,7 +1,4 @@
-import datetime
+import pandas as pd
 
-
-x = datetime.datetime.now()
-print(x)
-print(x.year)
-print(x.strftime("%A"))
+df = pd.read_excel('C:\\Users\\HP\\Downloads\\Datasets-main\\Datasets-main\\banking Data.xlsx')
+print(df)
