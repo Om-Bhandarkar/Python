@@ -24,7 +24,6 @@ obj2.display()
 print(obj3.name)
 obj3.display()
 
-
 print(obj1.collegeName)
 print(obj2.collegeName)
 print(obj3.collegeName)
