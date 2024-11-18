@@ -1,5 +1,5 @@
 def twoSum(arr,target):
-    
+    list = []
     arr.sort()
 
     left = 0
@@ -18,16 +18,19 @@ def twoSum(arr,target):
 
         elif arr[left] + arr[right] == target:
 
-            print("Values of pair are",arr[left],"&",arr[right])
-
+            # print("Values of pair are",arr[left],"&",arr[right])
+            list.append(arr[left])
+            list.append(arr[right])
             right = right - 1
 
             left = left + 1
- 
+        
+    return list
     
 
 arr = [1,4,45,6,10,8]
 
 target = 16
 
-twoSum(arr,target)
+ans = twoSum(arr,target)
+print(ans)
