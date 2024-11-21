@@ -1,42 +1,17 @@
-# import os
-# def reverse_words_order_and_swap_cases(sentence):
-#         a = sentence[::-1].split()
-#         for i in a:
-#             b = i[::-1]
-           
-#             result = b.swapcase()
-#         return result
+str = "kashsak"
+start, end = 0, len(str)-1
 
-# if __name__ == '__main__':
-    
+while start <= end:
+    if str[start] == str[end] :
+        start+=1
+        end-=1
+    else:
+        flag = 1
+        break
+    flag = 0
 
-#     sentence = input()
+if flag == 0:
+    print("Pallindrome String")
+else:
+    print("Not Pallindrome String")
 
-#     result = reverse_words_order_and_swap_cases(sentence)
-
-#     print(result)
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-str = "rUns dOg"
-a = str[::-1].split()
-print(a)
-list = []
-for i in a:
-    b = i[::-1]
-    list.append(b.swapcase())
-    
-print(' '.join(list))
-
-    
